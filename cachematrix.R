@@ -2,7 +2,7 @@
 
 ## makeCacheMatrix creates a function as a special matrix object.
 
-makeCacheMatrix <- function(x = matrix()) {		
+makeCacheMatrix <- function(x=matrix()) {		
 	inv_x <- NULL
 	set <- function(y) {
 		x <<- y
